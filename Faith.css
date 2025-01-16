@@ -1,0 +1,70 @@
+body {
+    background-color: azure;
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 525px 100px;
+    box-shadow: 13px 13px 10px silver
+  }
+
+  header {
+    grid-column: 3/ span 12;
+    height: 200px;
+    background-color: silver;
+    border-top-right-radius: 20px;
+  }
+
+.imgbox {
+    max-height: 100%;
+}
+
+.chart {
+  float: right;
+  max-height: 100%;
+}
+
+  h1 {
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px darkgreen;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  nav {
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    background-color: darkgreen;
+    grid-row-end: 4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .week {
+    text-align: center;
+    margin: 15px;
+    padding: 30px 10px 30px 10px;
+  }
+
+  nav ul {
+    background-color: white;
+    width: 130px;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  footer {
+    grid-column: 3/ span 12;
+    background-color: silver;
+    box-shadow: 10px 10px 10px salmon;
+    border-bottom-right-radius: 20px;
+  }
+
+  main {
+    grid-column: 3/ span 12;
+  }
