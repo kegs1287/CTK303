@@ -9,6 +9,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 200px 525px 100px;
     box-shadow: 13px 13px 10px white;
+    border-bottom-right-radius: 20px;
 }
 
 header {
@@ -34,14 +35,14 @@ main {
 }
 
 h1 {
-    padding: 30px 30px 20px 25px;
+    padding: 30px;
     margin: 0;
     color: white;
+    font-style: bold; 
     text-shadow: 2px 2px 2px black;
     font-family: "futura-pt", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 45px;
 }
   
 h2 {
@@ -59,7 +60,7 @@ nav {
     grid-row-end: 4;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-}
+  }
 
 li {
     font-family: "futura-pt", sans-serif;
@@ -105,63 +106,8 @@ nav ul {
     padding: 20px;
 }
 
-footer {
-    grid-column: 3/ span 12;
-    background-color: rgb(48, 176, 255);
-    box-shadow: 10px 10px 10px white;
-    border-bottom-right-radius: 20px;
-}
-
-.pics {
-    grid-column: 3/ span 12;
-}
-
-.footpics {
-    width: 100px;
-    padding: 0px 8px 0px 0px;
-}
-
-.footpics1 {
-    width: 150px;
-    padding: 0px 8px 0px 0px;
-}
-
-.footpics2 {
-    width: 178px;
-    padding: 0px px 0px 0px;
-}
-
-.footpics3 {
-    width: 86px;
-    padding: 0px 7px 0px 0cap;
-    border-bottom-right-radius: 20px;
-}
-
-p {
-  font-family: "futura-pt", sans-serif;
-}
-
-.bizkit {
-  font-family: "futura-pt", sans-serif;
-  padding: 0px 50px 0px 0px;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-}
-
-ul {
-  margin: 0px 40px 0px 0px;
-}
-
-.limp {
-    width: 210px;
-    padding-left: 130px;
-}
-
-.size {
-    font-size: 20px;
-}
-
-.size {
-    font-size: 18px;
+.radio {
+   width: 1000px; 
+   height: 625px;
+   border-bottom-right-radius: 20px;
 }

@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Faith</title>
+    <link rel="stylesheet" href="https://use.typekit.net/tct3brp.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <link href="Faith.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="wrapper">
         <header>
-          <img class="imgbox" src="Billboard_Hot_100_logo.jpg" alt="Billboard Logo" />
+          <a href="Cover.html">
+          <img class="imgbox" src="Billboard_Hot_100_logo.jpg" alt="Billboard Logo" /></a>
+          <h2>A weekly chart that ranks the most popular songs in the United States based on sales, radio airplan, and online streaming.</h2>
         </header>
           <nav>
-            <div class="week">Week of December 12, 1987</div>
-            <ul>
-              <li>#1. George Michael - "Faith"</li>
+            <div class="week">Week of December 12,</div>
+            <ul class="nobullets">
+              <li><a href="Faith.html">#1. George Michael - "Faith"</a></li>
               <li> #2. Belinda Carlisle - "Heaven Is A Place On Earth"</li>
               <li> #3. Richard Marx - "Should've Known Better"</li>
               <li> #4. Bill Medley & Jennifer Warnes - "(I've Had) The Time Of My Life"</li>
@@ -23,24 +28,54 @@
               <li> #8. Sting - "We'll Be Together"</li>
               <li> #9. Jody Watley - "Don't You Want Me"</li>
               <li> #10. George Harrison - "Got My Mind Set On You"</li>
+            </ul>
+            <div class="year">1987</div>
             </nav>
             <main>
-              <img class="chart" src="chart.jpg" alt="Billboard Chart" />
+              <a href="chart.jpg" data-fancybox="gallery" data-caption="chart">
+                <img class="chart" src="chart.jpg"></a>
               <h1>George Michael - "Faith"</h1>
-              <p>Second single off debut solo album that sold over 25 million records worldwide</p>
-              <p>Starting a 4 week run at #1 in the US</p>
-              <p>Also reached #1 in Australia, Belgium, Canada, Netherlands, New Zealand</p>
-              <p>Written, arranged, and produced by Michael</p>
-              <p>Personnel:</p> 
-                <ul>
-                  <li>George Michael - lead and harmony vocals, drum programming, handclaps, fingersnaps</li>
-                  <li>Deon Estus - bass guitar</li>
-                  <li>Hugh Burns - electric and acoustic guitars</li>
-                  <li>Chris Cameron - synthesizer</li>
+              <div style="height:418px;width:571px; futura-pt, sans-serif;overflow:auto;">
+              <ul>
+                <li><p class="size">Second single off debut solo album that sold 25 million records worldwide.</p></li>
+                <li><p class="size">Started a 4 week run at #1 in the US.</p></li>
+                <li><p class="size">Also reached #1 in Australia, Belgium, Canada, Netherlands, New Zealand.</p></li>
+                <li><p class="size">Written, arranged, and produced by Michael.</p></li>
+                <li><p class="size">Personnel:</p></li>
+              <ul>
+                  <li><p class="size1">George Michael - lead and harmony vocals, drum programming, handclaps, fingersnaps</li>
+                  <li><p class="size1">Deon Estus - bass guitar</li>
+                  <li><p class="size1">Hugh Burns - electric and acoustic guitars</li>
+                  <li><p class="size1">Chris Cameron - synthesizer</li>
+                </ul>
+                <li><p class="bizkit"> In 1998, Limp Bizket, noted numetal/raprock band, released a music video for their cover of "Faith"  that ended up spending 72 days charting on popular MTV's weekday top 10 music video countdown show Total Request Live (TRL), peaking at #3.</p></li>
+              <img class="limp" src="limp.webp" alt="limp">
+              </ul>
+              </div>
             </main>
     <footer>
-    <p>A weekly chart that ranks the most popular songs in the United States based on sales, radio airplay, and online streaming.</p>
+      <div class="pics">
+        <a href="faithcover.jpg" data-fancybox="gallery" data-caption="faithcover">
+          <img class="footpics" src="faithcover.jpg"></a>
+        <a href="georgeearring.webp" data-fancybox="gallery" data-caption="georgeearring">
+          <img class="footpics1" src="georgeearring.webp"></a>
+        <a href="georgeguitar.jpg" data-fancybox="gallery" data-caption="georgeguitar">
+          <img class="footpics" src="georgeguitar.jpg"></a>
+        <a href="georgemichael.jpg" data-fancybox="gallery" data-caption="georgemichael">
+          <img class="footpics" src="georgemichael.jpg"></a>
+        <a href="Oct29_2017-GeorgeMichaelFaith.jpg" data-fancybox="gallery" data-caption="jukeboxgeorge">
+          <img class="footpics2" src="Oct29_2017-GeorgeMichaelFaith.jpg"></a>
+        <a href="georgelive.jpeg" data-fancybox="gallery" data-caption="georgelive">
+          <img class="footpics" src="georgelive.jpeg"></a>
+        <a href="georgejeans.webp" data-fancybox="gallery" data-caption="georgejeans">
+          <img class="footpics" src="georgejeans.webp"></a>
+          <a href="georgesmile.jpg" data-fancybox="gallery" data-caption="georgesmiles">
+            <img class="footpics3" src="georgesmile.jpg"></a>
+      </div>
     </footer>
     </div>
+    <script>
+      Fancybox.bind("[data-fancybox]", {});
+  </script>
   </body>
 </html>
