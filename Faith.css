@@ -182,3 +182,9 @@ ul {
     margin-left: 40px;
     list-style-type: square;
 }
+
+.scroll {
+    height: 418px;
+    width: 571px;
+    overflow: auto;
+}
