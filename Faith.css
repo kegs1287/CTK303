@@ -98,6 +98,16 @@ li {
     margin: 5px 15px 0px 20px;
 }
 
+.faith { 
+    transition: background-color 1.0s, width 2.0s, color 0.5s;
+    color: black;
+}
+
+.faith:hover {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
 nav ul {
     background-color: white;
     width: 130px;
