@@ -34,16 +34,6 @@ main {
   max-height: 100%;
 }
 
-h1 {
-    padding: 30px;
-    margin: 0;
-    color: white;
-    font-style: bold; 
-    text-shadow: 2px 2px 2px black;
-    font-family: "futura-pt", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
   
 h2 {
     font-family: "futura-pt", sans-serif;
