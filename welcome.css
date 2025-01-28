@@ -1,5 +1,18 @@
 body {
-    background-color: black;
+    animation: body-ani 30s linear infinite;
+}
+
+@keyframes body-ani {
+  0%    {background-color: black;}
+  20%   {background-color:black;}
+  30%  {background-color: rgb(1, 1, 118);}
+  40%   {background-color:black;}
+  50%  {background-color:rgb(99, 0, 99)}
+  60%   {background-color:black;}
+  70%  {background-color: rgb(100, 0, 0);}
+  80%   {background-color:black;}
+  90%  {background-color: rgba(0, 104, 104, 0.907);}
+  100%   {background-color:black;}
 }
 
 a:link {
@@ -26,7 +39,7 @@ a:hover {
 }
 
 .welcome {
-height: 125px;	
+height: 110px;	
 overflow: hidden;
 position: relative;
 padding: 0px 0px 85px 0px;
@@ -55,13 +68,31 @@ position: absolute;
 }
 
 @keyframes welcome {
-    100% { 
-    transform: translateY(0%); 
-      }
-      0%   { 
-        transform: translateY(200%); 		
-      }
-   }
+  100% {
+  transform: translateY(0%);
+  text-shadow:
+  0 0 4px #fff,
+  0 0 11px #fff,
+  0 0 19px #fff,
+  0 0 40px #0fa,
+  0 0 80px #0fa,
+  0 0 90px #0fa,
+  0 0 100px #0fa,
+  0 0 150px #0fa;
+  }
+  0% {
+  transform: translateY(200%);
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #0fa,
+  0 0 45px #0fa,
+  0 0 55px #0fa,
+  0 0 70px #0fa,
+  0 0 80px #0fa;
+  }
+  }
 
 .to {
 height: 100px;	
@@ -79,7 +110,6 @@ line-height: 50px;
 text-align: center;
 font-family: "Audiowide", sans-serif;
 font-size: 60px;
-animation: welcome 3.0s ease-out, pulsate 2.5s infinite alternate;
 color: darkgrey;
 text-shadow:
 0 0 5px #fff,
@@ -90,7 +120,7 @@ text-shadow:
 0 0 30px #0fa,
 0 0 35px #0fa,
 0 0 40px #0fa;
-
+animation: welcome 3.0s ease-out;
 }
 
 .the {
@@ -109,7 +139,6 @@ text-shadow:
     text-align: center;
     font-family: "Audiowide", sans-serif;
     font-size: 60px;
-    animation: welcome 3.5s ease-out, pulsate 2.5s infinite alternate;
     color: darkgrey;
     text-shadow:
     0 0 5px #fff,
@@ -120,6 +149,7 @@ text-shadow:
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
+    animation: welcome 3.5s ease-out;
     }
 
 .archive {
@@ -138,7 +168,6 @@ text-shadow:
     text-align: center;
     font-family: "Audiowide", sans-serif;
     font-size: 60px;
-    animation: welcome 4.0s ease-out, pulsate 2.5s infinite alternate;
     color: darkgrey;
     text-shadow:
     0 0 5px #fff,
@@ -149,6 +178,7 @@ text-shadow:
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
+    animation: welcome 3.5s ease-out;
     }
 
     .light_left {
