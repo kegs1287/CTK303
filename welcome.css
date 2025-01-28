@@ -2,8 +2,31 @@ body {
     background-color: black;
 }
 
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: #0fa;
+    text-shadow:
+    0 0 17px hotpink   ,
+    0 0 20px hotpink,
+    0 0 31px hotpink,
+    0 0 17px #fff,
+    0 0 57px #fff,
+    0 0 67px #fff,
+    0 0 77px #fff,
+    0 0 126px #fff;
+    text-decoration: none;
+}
+
 .welcome {
-height: 130px;	
+height: 125px;	
 overflow: hidden;
 position: relative;
 padding: 0px 0px 85px 0px;
@@ -18,50 +41,30 @@ position: absolute;
  text-align: center;
  font-family: "Audiowide", sans-serif;
  font-size: 60px;
- animation: welcome 2.5s ease-out, infinite alternate;
  color: darkgrey;
  text-shadow:
-    0 0 7px #fff,
+    0 0 5px #fff,
     0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
+    animation: welcome 2.5s ease-out;
 }
 
 @keyframes welcome {
     100% { 
     transform: translateY(0%); 
-        /* Larger blur radius */
-        text-shadow:
-          0 0 4px #fff,
-          0 0 11px #fff,
-          0 0 19px #fff,
-          0 0 40px #0fa,
-          0 0 80px #0fa,
-          0 0 90px #0fa,
-          0 0 100px #0fa,
-          0 0 150px #0fa;
       }
       0%   { 
         transform: translateY(200%); 		
-        /* Smaller blur radius */
-        text-shadow:
-          0 0 2px #fff,
-          0 0 4px #fff,
-          0 0 6px #fff,
-          0 0 10px #0fa,
-          0 0 45px #0fa,
-          0 0 55px #0fa,
-          0 0 70px #0fa,
-          0 0 80px #0fa;
       }
    }
 
 .to {
-height: 125px;	
+height: 100px;	
 overflow: hidden;
 position: relative;
 padding: 0px 0px 85px 0px;
@@ -79,19 +82,19 @@ font-size: 60px;
 animation: welcome 3.0s ease-out, pulsate 2.5s infinite alternate;
 color: darkgrey;
 text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+0 0 5px #fff,
+0 0 10px #fff,
+0 0 15px #fff,
+0 0 20px #0fa,
+0 0 25px #0fa,
+0 0 30px #0fa,
+0 0 35px #0fa,
+0 0 40px #0fa;
 
 }
 
 .the {
-    height: 125px;	
+    height: 100px;	
     overflow: hidden;
     position: relative;
     padding: 0px 0px 85px 0px;
@@ -109,14 +112,14 @@ text-shadow:
     animation: welcome 3.5s ease-out, pulsate 2.5s infinite alternate;
     color: darkgrey;
     text-shadow:
-    0 0 7px #fff,
+    0 0 5px #fff,
     0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
     }
 
 .archive {
@@ -138,14 +141,14 @@ text-shadow:
     animation: welcome 4.0s ease-out, pulsate 2.5s infinite alternate;
     color: darkgrey;
     text-shadow:
-    0 0 7px #fff,
+    0 0 5px #fff,
     0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
     }
 
     .light_left {
@@ -199,4 +202,21 @@ text-shadow:
         filter: blur(10px);
         -webkit-mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
         animation: rotate_spotlight 10s linear infinite;
+      }
+
+      .tiedyed {
+        width: 300px;
+        height: 300px;
+        animation: rotation 6s infinite linear;
+        display: block;
+        margin: 125px 0px 0px 557px
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
       }
