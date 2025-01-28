@@ -64,7 +64,7 @@ position: absolute;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 2.5s ease-out;
+    animation: welcome 3s ease-out;
 }
 
 @keyframes welcome {
@@ -120,7 +120,7 @@ text-shadow:
 0 0 30px #0fa,
 0 0 35px #0fa,
 0 0 40px #0fa;
-animation: welcome 3.0s ease-out;
+animation: welcome 3.5s ease-out;
 }
 
 .the {
@@ -149,7 +149,7 @@ animation: welcome 3.0s ease-out;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 3.5s ease-out;
+    animation: welcome 4s ease-out;
     }
 
 .archive {
@@ -178,7 +178,7 @@ animation: welcome 3.0s ease-out;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 3.5s ease-out;
+    animation: welcome 4.5s ease-out;
     }
 
     .light_left {
@@ -196,7 +196,7 @@ animation: welcome 3.0s ease-out;
         mix-blend-mode: screen;
         opacity: 1;
         filter: blur(10px);
-        -webkit-mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+        mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
         animation: rotate_spotlight 10s linear infinite;
       }
       
@@ -230,7 +230,7 @@ animation: welcome 3.0s ease-out;
         mix-blend-mode: screen;
         opacity: 1;
         filter: blur(10px);
-        -webkit-mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
+        mask-image: radial-gradient(circle at 50% 0%, black 5%, transparent 70%);
         animation: rotate_spotlight 10s linear infinite;
       }
 
@@ -239,7 +239,7 @@ animation: welcome 3.0s ease-out;
         height: 300px;
         animation: rotation 6s infinite linear;
         display: block;
-        margin: 125px 0px 0px 550px
+        margin: 90px 0px 0px 550px  
       }
 
       @keyframes rotation {
@@ -249,4 +249,8 @@ animation: welcome 3.0s ease-out;
         to {
           transform: rotate(360deg);
         }
+      }
+
+      img {
+        border-radius: 30%;;
       }
