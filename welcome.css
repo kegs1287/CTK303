@@ -239,7 +239,7 @@ animation: welcome 3.0s ease-out;
         height: 300px;
         animation: rotation 6s infinite linear;
         display: block;
-        margin: 125px 0px 0px 557px
+        margin: 125px 0px 0px 550px
       }
 
       @keyframes rotation {
