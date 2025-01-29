@@ -64,12 +64,11 @@ position: absolute;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 3s ease-out;
+    animation: welcome 0.5s ease-out infinite alternate, moves 2s ease-out;
 }
 
 @keyframes welcome {
   100% {
-  transform: translateY(0%);
   text-shadow:
   0 0 4px #fff,
   0 0 11px #fff,
@@ -81,7 +80,6 @@ position: absolute;
   0 0 150px #0fa;
   }
   0% {
-  transform: translateY(200%);
   text-shadow:
   0 0 2px #fff,
   0 0 4px #fff,
@@ -93,6 +91,15 @@ position: absolute;
   0 0 80px #0fa;
   }
   }
+
+  @keyframes moves {
+    0% {
+      transform: translateY(200%);
+    }
+    100% {
+      transform: translateY(0%);
+  }
+}
 
 .to {
 height: 100px;	
@@ -120,7 +127,7 @@ text-shadow:
 0 0 30px #0fa,
 0 0 35px #0fa,
 0 0 40px #0fa;
-animation: welcome 3.5s ease-out;
+animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
 }
 
 .the {
@@ -149,7 +156,7 @@ animation: welcome 3.5s ease-out;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 4s ease-out;
+    animation: welcome 0.7s ease-out infinite alternate, moves 2s ease-out;
     }
 
 .archive {
@@ -178,7 +185,7 @@ animation: welcome 3.5s ease-out;
     0 0 30px #0fa,
     0 0 35px #0fa,
     0 0 40px #0fa;
-    animation: welcome 4.5s ease-out;
+    animation: welcome 0.4s ease-out infinite alternate, moves 2s ease-out;
     }
 
     .light_left {
@@ -255,14 +262,40 @@ animation: welcome 3.5s ease-out;
         border-radius: 30%;
         box-shadow: 
         0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 15px #fff,
-    0 0 20px #0fa,
-    0 0 25px #0fa,
-    0 0 30px #0fa,
-    0 0 35px #0fa,
-    0 0 40px #0fa;
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #0fa,
+        0 0 25px #0fa,
+        0 0 30px #0fa,
+        0 0 35px #0fa,
+        0 0 40px #0fa;
+    animation: welcomes 0.5s ease-out infinite alternate, moves 2s ease-out;
       }
+
+      @keyframes welcomes {
+        100% {
+        box-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+        }
+        0% {
+        box-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+        }
+        }
 
       img:hover {
           box-shadow:
