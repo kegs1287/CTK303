@@ -253,5 +253,27 @@ animation: welcome 3.5s ease-out;
 
       img {
         border-radius: 30%;
-        box-shadow: 10px 5px 5px whitesmoke;
+        box-shadow: 
+        0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 25px #0fa,
+    0 0 30px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa;
       }
+
+      img:hover {
+          box-shadow:
+          0 0 17px hotpink   ,
+          0 0 20px hotpink,
+          0 0 31px hotpink,
+          0 0 17px #fff,
+          0 0 57px #fff,
+          0 0 67px #fff,
+          0 0 77px #fff,
+          0 0 126px #fff;
+          text-decoration: none;
+      }
+    
