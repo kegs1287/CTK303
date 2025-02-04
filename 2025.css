@@ -78,7 +78,7 @@
 
 #svg {
   animation: glitch 1s linear infinite;
-  animation-delay: 9s;
+  animation-delay: 7.5s;
 }
 
 @keyframes glitch{
