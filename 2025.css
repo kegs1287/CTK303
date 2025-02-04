@@ -1,5 +1,5 @@
 #Background {
-    animation: inn 10s infinite;
+    animation: inn 12s infinite;
 }
 
 #I {
@@ -14,18 +14,22 @@
  
  @keyframes rotate {
   0%   { transform: rotate(360deg);}
+  80% {transform: rotate(0deg);}
+  90% { transform: rotate(0deg);}
   100% { transform: rotate(0deg);}
     }
 
 @keyframes inn {
     0% { filter: invert(0%);}
-    80% {filter: invert(0%);}
+    60% {filter: invert(0%);}
+    70% {filter: invert(100%);}
+    80% {filter: invert(100%);}
     90% {filter: invert(100%);}
     100% {filter: invert(100%);}
 }   
 
   #V {
-    animation: V 6.0s, rotate 10s infinite, inn 10s infinite;
+    animation: V 6.0s, rotate 12s infinite, inn 12s infinite;
     transform-origin: center;
   }
   
@@ -35,7 +39,7 @@
   }
 
   #O {
-    animation: bob 2.5s infinite ease-in-out, O 8.0s, rotate 9s, inn 10s infinite;
+    animation: bob 2.5s infinite ease-in-out, O 8.0s, rotate 9s, inn 12s infinite;
       }
 
   @keyframes O {
@@ -49,7 +53,7 @@
   }
 
   #_2025 {
-    animation: bob 3s infinite ease-in-out, _2025 8.0s, inn 10s infinite;
+    animation: bob 3s infinite ease-in-out, _2025 8.0s, inn 12s infinite;
   }
   
   @keyframes _2025 {
@@ -59,7 +63,7 @@
 
 
 #New {
-    animation: bob 4s linear infinite, New 10s, inn 10s infinite;
+    animation: bob 4s linear infinite, New 10s, inn 12s infinite;
 }
 
 
@@ -74,7 +78,7 @@
 
 #svg {
   animation: glitch 1s linear infinite;
-  animation-delay: 8s;
+  animation-delay: 9s;
 }
 
 @keyframes glitch{
