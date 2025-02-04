@@ -1,0 +1,75 @@
+#Background {
+    animation: inn 10s infinite;
+}
+
+#I {
+    animation: bob 2s infinite ease-in-out, I 4s, rotate 5.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes I {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+ 
+ @keyframes rotate {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+    }
+
+@keyframes inn {
+    0% { filter: invert(0%);}
+    80% {filter: invert(0%);}
+    90% {filter: invert(100%);}
+    100% {filter: invert(100%);}
+}   
+
+  #V {
+    animation: V 6.0s, rotate 10s infinite, inn 10s infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes V {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #O {
+    animation: bob 2.5s infinite ease-in-out, O 8.0s, rotate 9s, inn 10s infinite;
+    transform-origin: center;
+  }
+  
+  @keyframes O {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+  
+  @keyframes New {
+    0%   { transform: translate(0, 200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #_2025 {
+    animation: bob 3s infinite ease-in-out, _2025 8.0s, inn 10s infinite;
+  }
+  
+  @keyframes _2025 {
+    0%   { transform: translate(0, -200%);}
+    100% { transform: translate(0, 0);}
+  }
+
+
+#New {
+    animation: bob 4s infinite ease-in-out, New 10s, inn 10s infinite;
+}
+
+
+@keyframes bob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
