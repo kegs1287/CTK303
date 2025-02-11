@@ -301,6 +301,7 @@ animation: welcome 0.6s ease-out infinite alternate, moves 2s ease-out;
 #defaultCanvas0 {
   width: 1390px !important;
   height: 700px !important;
+  padding-top: 400px;
         }
 
         

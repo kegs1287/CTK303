@@ -1,5 +1,8 @@
 let ufo = {x: 50, y: 80, width: 80, speed: 1}
 
+function setup() {
+  createCanvas(500, 300)
+}
 
 function draw() {
   drawUfo()
