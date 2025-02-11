@@ -2,13 +2,14 @@ let ufo = {x: 50, y: 80, width: 80, speed: 1}
 
 function setup() {
   createCanvas(500, 300)
+  noStroke()
 }
 
 function draw() {
+  background("black")
   drawUfo()
   moveUfo()
 }
-
 
 function drawUfo() {
   fill("silver")
@@ -22,9 +23,3 @@ function moveUfo() {
     ufo.speed = -ufo.speed
   }
 }
-
-function random(min, max) {
-    return min + Math.random() * (max + 1 - min);
-  }
-
-  
