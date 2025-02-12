@@ -24,7 +24,7 @@ for(let i = 0; i < starsFraction; i++) {
   document.body.appendChild(star);
 }
 
-let ufo = {x: 60, y: 70, width: 90, speed: 3}
+let ufo = {x: 60, y: 70, width: 90, speed: 4}
 
 function setup() {
   createCanvas(1400, 125)
@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-  background("black")
+  clear()
   drawUfo()
   moveUfo()
 }
