@@ -14,8 +14,8 @@ header {
 }
 
 h1 {
-  font-size: 17px;
-  padding: 30px;
+  font-size: 15px;
+  padding: 37px;
   margin: 0;
   color: white;
   font-style: italic;
@@ -154,9 +154,9 @@ footer {
 
 
 .contact {
-  padding: 35px;
+  padding: 42px;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   font-style: italic;
   text-shadow: 2px 2px 2px green;
