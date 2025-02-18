@@ -134,7 +134,7 @@ h2 {
   text-align: center;
   color: darkgreen;
   padding: 0px 50px 0px 50px;
-  font-size: 11.5px;
+  font-size: 13px;
   font-family: "Chakra Petch", sans-serif;
   text-shadow: 1px 1px 0px rgb(70, 209, 20);
   margin-top: 5px;  
@@ -142,8 +142,8 @@ h2 {
 }
 
 .sideeye {
-  width: 208px;
-  padding: 0px 87px;
+  width: 125px;
+  padding: 11px 123px;
 }
 
 footer {
