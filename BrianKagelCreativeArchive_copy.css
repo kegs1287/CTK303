@@ -1,0 +1,534 @@
+#wrapper {
+  margin: 1em auto;
+  width: 470px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 477px 100px;
+  box-shadow: 13px 13px 10px rgb(110, 209, 110);
+}
+
+header {
+  grid-column: 2/ span 5;
+  height: 100px;
+  background-color: rgb(70, 209, 20);
+}
+
+h1 {
+  font-size: 15px;
+  padding: 37px;
+  margin: 0;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px darkgreen;
+  font-family: "Audiowide", sans-serif;
+}
+
+nav {
+  width: 100px;
+  grid-column: 1/ span 1;
+  grid-row: 1;
+  background-color: darkgreen;
+  grid-row-end: 4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+nav ul {
+  background-color: white;
+  width: 36px;
+  margin: 15px 15px 35px 15px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 8px;
+}
+
+nav li {  
+  width: 60px; 
+  background-color: rgb(70, 209, 20);
+  display: block;
+  margin: 20px 0px 20px -13px;
+  text-align: center;
+  box-shadow: 10px 10px 10px darkgreen;
+  transition: background-color 1.0s, color 1.0s; 
+  font-family: "Audiowide", sans-serif; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+nav li:hover {
+  background-color:darkgreen;
+}
+
+nav li a:hover {
+  color: rgb(70, 209, 20);
+}
+
+.ufo {
+  width: 76px;
+  padding: 0px 0px 0px 0px;
+  border-top: 2px solid rgb(70, 209, 20);
+  margin: 5px 25px 0px 12px;
+}
+
+.player {
+  width: 72px;
+  height: 25px;
+  padding: 0px 14px;
+}
+
+.line1 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 0px 14px;
+}
+
+.line2 {
+  height: 2px;
+  background-color: white;
+  margin: 5px 30px 0px 30px;
+}
+
+.line3 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 5px 45px 0px 45px;
+}
+
+.line4 {
+  height: 2px;
+  background-color: white;
+  margin: 0px 30px 0px 30px;
+}
+
+.line5 {
+  height: 2px;
+  background-color: rgb(70, 209, 20);
+  margin: 0px 45px 5px 45px;
+}
+
+
+main {
+  grid-column: 2/ span 5;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: green;
+  text-shadow: 2px 2px 2px rgb(70, 209, 20);
+  font-family: "Audiowide", sans-serif; 
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.aboutme {
+  text-align: center;
+  color: darkgreen;
+  padding: 0px 50px 0px 50px;
+  font-size: 13px;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: 1px 1px 0px rgb(70, 209, 20);
+  margin-top: 5px;  
+  margin-bottom: 5px;
+}
+
+.sideeye {
+  width: 136px;
+  padding: 0px 117px;
+}
+
+footer {
+  grid-column: 2/ span 5;
+  background-color: rgb(70, 209, 20);
+  box-shadow: 13px 13px 10px rgb(110, 209, 110);
+}
+
+
+.contact {
+  padding: 42px;
+  margin: 0;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px 2px green;
+  font-family: "Audiowide", sans-serif;
+}
+
+p a {
+  color: white;
+  transition: color 1.0s;
+}
+
+p a:hover {
+  color: darkgreen; 
+  text-shadow: 2px 2px 2px white;
+}
+
+
+
+
+@media all and (min-width: 36rem){
+  #wrapper {
+    margin: 1em auto;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 477px 100px;
+    box-shadow: 13px 13px 10px rgb(110, 209, 110);
+  }
+  
+  header {
+    grid-column: 2/ span 5;
+    height: 100px;
+    background-color: rgb(70, 209, 20);
+  }
+  
+  h1 {
+    font-size: 21px;
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px darkgreen;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  nav {
+    width: 117px;
+    grid-column: 1/ span 1;
+    grid-row: 1;
+    background-color: darkgreen;
+    grid-row-end: 4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  nav ul {
+    background-color: white;
+    width: 48px;
+    margin: 15px 15px 35px 15px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 8px;
+  }
+  
+  nav li {  
+    width: 71px; 
+    background-color: rgb(70, 209, 20);
+    display: block;
+    margin: 20px 0px 20px -13px;
+    text-align: center;
+    box-shadow: 10px 10px 10px darkgreen;
+    transition: background-color 1.0s, color 1.0s; 
+    font-family: "Audiowide", sans-serif; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+  }
+  
+  nav li:hover {
+    background-color:darkgreen;
+  }
+  
+  nav li a:hover {
+    color: rgb(70, 209, 20);
+  }
+  
+  .ufo {
+    width: 92px;
+    padding: 0px 0px 0px 0px;
+    border-top: 2px solid rgb(70, 209, 20);
+    margin: 5px 25px 0px 12px;
+  }
+  
+  .player {
+    width: 86px;
+    height: 25px;
+    padding: 0px 14px;
+  }
+  
+  .line1 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 0px 14px;
+  }
+  
+  .line2 {
+    height: 2px;
+    background-color: white;
+    margin: 5px 30px 0px 30px;
+  }
+  
+  .line3 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 5px 50px 0px 50px;
+  }
+  
+  .line4 {
+    height: 2px;
+    background-color: white;
+    margin: 0px 30px 0px 30px;
+  }
+  
+  .line5 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 0px 50px 5px 50px;
+  }
+  
+  
+  main {
+    grid-column: 2/ span 5;
+  }
+  
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    text-shadow: 2px 2px 2px rgb(70, 209, 20);
+    font-family: "Audiowide", sans-serif; 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .aboutme {
+    text-align: center;
+    color: darkgreen;
+    padding: 0px 50px 0px 50px;
+    font-size: 15.5px;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 1px 1px 0px rgb(70, 209, 20);
+    margin-top: 5px;  
+    margin-bottom: 5px;
+  }
+  
+  .sideeye {
+    width: 200px;
+    padding: 1px 182px;
+  }
+  
+  footer {
+    grid-column: 2/ span 5;
+    background-color: rgb(70, 209, 20);
+    box-shadow: 13px 13px 10px rgb(110, 209, 110);
+  }
+
+  
+  .contact {
+    padding: 35px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px green;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  p a {
+    color: white;
+    transition: color 1.0s;
+  }
+  
+  p a:hover {
+    color: darkgreen; 
+    text-shadow: 2px 2px 2px white;
+  }
+}
+
+@media all and (min-width: 60rem){
+  #wrapper {
+    margin: 1em auto;
+    width: 1080px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 525px 100px;
+    box-shadow: 13px 13px 10px rgb(110, 209, 110);
+  }
+
+  body { 
+    max-width: 1080px; margin: 0rem auto; 
+    display: grid;
+  }
+  
+  header {
+    grid-column: 3/ span 12;
+    height: 100px;
+    background-color: rgb(70, 209, 20);
+  }
+  
+  h1 {
+    font-size: 25px;
+    padding: 30px;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px darkgreen;
+    font-family: "Audiowide", sans-serif;
+  }
+ 
+  nav {
+    width: 180px;
+    grid-column: 1/ span 2;
+    background-color: darkgreen;
+    grid-row-end: 4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  nav ul {
+    background-color: white;
+    width: 110px;
+    margin: 15px 15px 35px 15px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 13px;
+  }
+  
+  nav li { 
+    width: 125px;  
+    background-color: rgb(70, 209, 20);
+    display: block;
+    margin: 20px -10px 20px -10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px darkgreen;
+    transition: background-color 1.0s, color 1.0s; 
+    font-family: "Audiowide", sans-serif; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+  }
+  
+  nav li:hover {
+    background-color:darkgreen;
+  }
+  
+  nav li a:hover {
+    color: rgb(70, 209, 20);
+  } 
+
+  .ufo {
+    width: 150px;
+    padding: 0px 0px 0px 0px;
+    border-top: 2px solid rgb(70, 209, 20);
+    margin: 5px 25px 0px 12px;
+  }
+  
+  .player {
+    width: 145px;
+    height: 25px;
+    padding: 0px 14px;
+  }
+  
+  .line1 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 0px 18px;
+  }
+  
+  .line2 {
+    height: 2px;
+    background-color: white;
+    margin: 5px 50px 0px 50px;
+  }
+  
+  .line3 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 5px 75px 0px 75px;
+  }
+  
+  .line4 {
+    height: 2px;
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+  }
+  
+  .line5 {
+    height: 2px;
+    background-color: rgb(70, 209, 20);
+    margin: 0px 75px 5px 75px;
+  }
+  
+  main {
+    grid-column: 3/ span 12;
+  }
+  
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    text-shadow: 2px 2px 2px rgb(70, 209, 20);
+    font-family: "Audiowide", sans-serif; 
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .aboutme {
+    text-align: center;
+    color: darkgreen;
+    padding: 0px 50px 0px 50px;
+    font-size: 17.5px;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 1px 1px 0px rgb(70, 209, 20);
+    margin-top: 5px;  
+    margin-bottom: 5px;
+  }
+  
+  .sideeye {
+    width: 307px;
+    padding: 0px 256px;
+  }
+  
+  footer {
+    grid-column: 3/ span 12;
+    background-color: rgb(70, 209, 20);
+    box-shadow: 13px 13px 10px rgb(110, 209, 110);
+  }
+  
+  
+  .contact {
+    padding: 35px;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 2px green;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  p a {
+    color: white;
+    transition: color 1.0s;
+  }
+  
+  p a:hover {
+    color: darkgreen; 
+    text-shadow: 2px 2px 2px white;
+  }
+}
